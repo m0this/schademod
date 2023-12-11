@@ -1,4 +1,4 @@
-# schademod
-Minecraft Fabric SchadeMod
+# SchadeMod
+### Minecraft Fabric SchadeMod
 
-In Momenten des Ablebens eines Spielers wird im Chat der Ausdruck 'schade' genutzt, um dem Verstorbenen Respekt zu erweisen.
+Eine einfühlsame Geste: Der Mod zeigt verstorbenen Spielern Respekt, indem im Chat 'schade' bei ihrem Tod gesendet wird.
