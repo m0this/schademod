@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "schademod",
+  "version": "${version}",
+  "name": "SchadeMod",
+  "description": "In Momenten des Ablebens wird im Chat der Ausdruck 'schade' genutzt, um dem Verstorbenen Respekt zu erweisen.",
+  "authors": [
+    "m0this"
+  ],
+  "contact": {
+    "repo": "https://github.com/m0this/schademod"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/schademod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.mathis.schademod.client.SchadeModClient"
+    ],
+    "main": [
+      "de.mathis.schademod.SchadeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
