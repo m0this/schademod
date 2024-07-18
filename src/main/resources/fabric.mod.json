@@ -10,20 +10,31 @@
   "contact": {
     "repo": "https://github.com/m0this/schademod"
   },
-  "license": "All-Rights-Reserved",
+  "license": "CC0-1.0",
   "icon": "assets/schademod/icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
-    "client": [
-      "de.mathis.schademod.client.SchadeModClient"
-    ],
     "main": [
-      "de.mathis.schademod.SchadeMod"
+      "de.mathis.SchadeMod"
+    ],
+    "client": [
+      "de.mathis.SchadeModClient"
     ]
   },
+  "mixins": [
+    "schademod.mixins.json",
+    {
+      "config": "schademod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
   }
 }
