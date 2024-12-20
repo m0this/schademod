@@ -3,7 +3,7 @@
   "id": "schademod",
   "version": "${version}",
   "name": "SchadeMod",
-  "description": "In Momenten des Ablebens wird im Chat der Ausdruck 'schade' genutzt, um dem Verstorbenen Respekt zu erweisen.",
+  "description": "Schreibt 'schade' im Chat, wenn ein Spieler stirbt.",
   "authors": [
     "m0this"
   ],
